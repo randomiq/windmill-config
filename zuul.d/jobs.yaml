@@ -22,8 +22,6 @@
       nodes:
         - name: ubuntu-bionic
           label: ubuntu-bionic
-    secrets:
-      - site_logs
 
 - job:
     name: base-test
@@ -46,5 +44,3 @@
       nodes:
         - name: ubuntu-bionic
           label: ubuntu-bionic
-    secrets:
-      - site_logs
